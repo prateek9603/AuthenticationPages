@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.container{
+    margin-top: 6rem;
+    border: solid 1.5px transparent;
+    border-radius:25%;
+    padding: 5rem 2rem;
+    background-color: rgb(131, 173, 215);
+}
+ .container input{
+    margin: 1rem 0 1rem;
+ }
+
+ h1{
+    color: black;
+    font-weight: 700;
+ }
+
+ .container h1,span{
+    background-color: rgb(131, 173, 215);
+ }
+ 
+span{
+    cursor: pointer;
+ }
+
+ button{
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin-right: 1rem;
+    background-color: #00f;
+    color: #fff;
+ }

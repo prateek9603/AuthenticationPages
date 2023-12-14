@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+.wrapper{
+    margin: 3rem auto;
+    border: solid 1.5px transparent;
+    border-radius:25%;
+    padding: 3rem 2rem;
+    background-color: rgb(131, 173, 215);
+}
+ .wrapper input{
+    margin: 1rem 0 1rem;
+ }
+
+ h1{
+    color: black;
+    font-weight: 700;
+ }
+
+ .wrapper h1,span{
+    background-color: rgb(131, 173, 215);
+ }
+ 
+span{
+    cursor: pointer;
+ }
+
+ button{
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    margin-right: 1rem;
+    background-color: #00f;
+    color: #fff;
+ }
